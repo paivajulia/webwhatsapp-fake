@@ -1,0 +1,10 @@
+.AppContainer{
+  display:flex;
+  flex-direction: row;
+}
+
+.leftContainer{
+width: 30%;
+min-width: 350px;
+border-right: solid 1px rgb(177, 179, 181);
+}
