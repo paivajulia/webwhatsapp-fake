@@ -19,8 +19,6 @@ function App() {
         <HeaderConversa />
         <Conversa />
         <SendMessenger />
-
-
       </div>
     </div>
   )

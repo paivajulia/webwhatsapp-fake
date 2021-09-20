@@ -1,18 +1,22 @@
 .profilecontainer{
     background-color: rgb(41,47,50);
-    min-height: 63px;
+    min-height: 75px;
     color: rgb(177,179,181);
     font-weight: 500;
     font-size: large;
-    padding-top: 12px;
-    padding-left: 24px;
-   
-
-
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .profileimage{
     width: 51px;
     border-radius: 50%;
     
+}
+.imageprofilecontainer{
+    flex: 1;
 }

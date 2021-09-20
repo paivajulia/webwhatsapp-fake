@@ -1,0 +1,28 @@
+.SearchContainer{
+background-color: rgb(17, 28, 34);
+height: 60px;
+padding: 0 15px;
+border-bottom: solid 1px rgb(177, 179, 181);
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+
+.SearchInput{
+    width: 100%;
+    padding-left: 70px;
+    min-height: 35px;
+    border-radius: 25px;
+    font-size: large;
+    color: rgb(177, 179, 181);
+    background-color: rgb(49, 55, 57);
+    border: none;
+}
+
+.IconeSearch{
+    position: absolute;
+    left: 40px;
+    font-size: large;
+    color: rgb(129, 134, 137);
+}

@@ -1,0 +1,30 @@
+.hdconversacontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(41, 47, 50);
+    color:rgb(177, 179, 181);
+    min-height: 75px;
+
+}
+
+.hdconversadescricao{
+    flex: 1;
+}
+
+.hdconversatitle{
+    color:rgb(230, 230, 230);
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.hdconversaimg{
+    min-width: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hdconversaimg img{
+    border-radius: 50%;
+    width: 51px;
+}
